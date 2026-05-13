@@ -1,5 +1,5 @@
 #include <iostream>
-#include "KeyMovement.h"
+#include "KeyMovements.h"
 
 using namespace std;
 
@@ -16,10 +16,12 @@ int main(int argc, char** argv)
     SetCursorPosition(startPos);
     cout << "#" << endl;
 
+    KeyMovements keyMovements;
+
     COORD currentPos = startPos;
     while (1)
     {        
-        COORD newPosition = KeyMovement(currentPos);
+        COORD newPosition = keyMovements.KeyMovement(currentPos);
         SetCursorPosition(newPosition);
         currentPos = newPosition;
         cout << "#" << endl;

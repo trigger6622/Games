@@ -18,12 +18,12 @@
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="KeyMovement.cpp">
+    <ClCompile Include="KeyMovements.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="KeyMovement.h">
+    <ClInclude Include="KeyMovements.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

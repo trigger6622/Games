@@ -1,7 +1,7 @@
-#include "KeyMovement.h"
+#include "KeyMovements.h"
 
 
-int GetKey()
+int KeyMovements::GetKey()
 {
     int c = 0;
     switch ((c = _getch())) {
@@ -22,7 +22,7 @@ int GetKey()
     };
 };
 
-COORD GetPosFromKey(int key)
+COORD KeyMovements::GetPosFromKey(int key)
 {
     int x = 0;
     int y = 0;
@@ -48,7 +48,7 @@ COORD GetPosFromKey(int key)
     return pos;
 };
 
-COORD KeyMovement(COORD currentPos)
+COORD KeyMovements::KeyMovement(COORD currentPos)
 {
     int pressedKey = GetKey();
     COORD posValueToAdd = GetPosFromKey(pressedKey);

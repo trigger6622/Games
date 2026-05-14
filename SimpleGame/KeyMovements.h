@@ -3,20 +3,18 @@
 #include <conio.h>
 #include <vector>
 
-
-
 class KeyMovements
 {
-private:
-	#define KEY_UP 72
-	#define KEY_DOWN 80
-	#define KEY_LEFT 75
-	#define KEY_RIGHT 77
-	int GetKey();
-	COORD GetPosFromKey(int key);
+	private:
+		#define KEY_UP 72
+		#define KEY_DOWN 80
+		#define KEY_LEFT 75
+		#define KEY_RIGHT 77
+		int GetKey();
+		COORD GetPosFromKey(int key);
 
-public:
-	COORD KeyMovement(COORD currentPos);
+	public:
+		COORD KeyMovement(COORD currentPos);
 };
 
 

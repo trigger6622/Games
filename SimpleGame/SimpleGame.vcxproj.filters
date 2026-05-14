@@ -21,9 +21,15 @@
     <ClCompile Include="KeyMovements.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="AutomaticMovements.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="KeyMovements.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AutomaticMovements.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
